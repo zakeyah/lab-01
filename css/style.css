@@ -1,8 +1,60 @@
-@import'./base.css';
-@import'./layout.css';
+@media (max-width:767px){
+    #a{
+        background-color: rgb(170, 167, 167);
+    }
+    #b{
+        background-color: rgb(226, 141, 186);
+    }
+    #c{
+        background-color: rgb(243, 130, 243);
+    }
+    #d{
+        background-color: rgb(170, 67, 88);
+    }
+    #e{
+        background-color: rgb(87, 88, 83);
+    }
+    #f{
+        background-color: rgb(77, 91, 212);
+    }
+    #g{  
+        background-color: rgb(124, 241, 124);
+    }
+    #h{   
+        background-color: cadetblue;
+    }
+    #i{
+        background-color: rgb(211, 203, 203);
+    }
+}
 
 
-
-
-/*desktop view*/
-
+@media  (min-width:1025px) {
+    #a{
+        background-color: rgb(209, 38, 38);
+    }
+    #b{
+        background-color: rgb(231, 90, 168);
+    }
+    #c{
+        background-color: rgb(190, 151, 226);
+    }
+    #d{
+        background-color: rgb(105, 56, 151);
+    }
+    #e{
+        background-color: rgb(65, 42, 168);
+    }
+    #f{
+        background-color: rgb(50, 20, 220);
+    }
+    #g{
+        background-color: rgb(13, 158, 168);
+    }
+    #h{
+        background-color: rgb(53, 204, 116);
+    }
+    #i{
+        background-color: rgb(200, 209, 77);
+    }
+}
