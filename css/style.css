@@ -28,6 +28,38 @@
     }
 }
 
+@media  (min-width:768px) and (max-width: 1024px){
+    main{
+        color: #ffff;
+    }
+    #a{
+        background-color: coral;
+    }
+    #b{
+        background-color: rgb(114, 204, 79);
+    }
+    #c{
+        background-color: rgb(40, 40, 226);
+    }
+    #d{
+        background-color: rgb(143, 36, 231);
+    }
+    #e{
+        background-color: rgb(231, 235, 37);
+    }
+    #f{
+        background-color: rgb(241, 66, 133);
+    }
+    #g{  
+        background-color: rgb(7, 101, 133);
+    }
+    #h{   
+        background-color: rgb(10, 141, 21);
+    }
+    #i{
+        background-color: rgb(194, 197, 35);
+    }
+}
 
 @media  (min-width:1025px) {
     #a{

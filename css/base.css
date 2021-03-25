@@ -12,6 +12,17 @@
     }
 }
 
+@media  (min-width:768px) and (max-width: 1024px){
+    body{
+        margin: 0 auto;
+        font-weight: 800;
+    }
+    #a, #b, #c, #d, #e, #f, #g, #h, #i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 @media  (min-width:1025px) {
     body{
