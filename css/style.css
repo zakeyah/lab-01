@@ -1,8 +1,63 @@
 @import'./base.css';
 @import'./layout.css';
+@import'./modules.css';
 
+@media (max-width:767px){
+    #a{
+        background-color: rgb(245, 119, 119);
+    }
+    #b{
+        background-color: rgb(212, 77, 84);
+    }
+    #c{
+        background-color: rgb(192, 42, 54);
+    }
+    #d{
+        background-color: rgb(155, 49, 70);
+    }
+    #e{
+        background-color: rgb(230, 101, 26);
+    }
+    #f{
+        background-color: rgb(204, 164, 131);
+    }
+    #g{  
+        background-color: rgb(113, 115, 116);
+    }
+    #h{   
+        background-color: rgb(104, 105, 102);
+    }
+    footer{
+        background-color: rgb(236, 163, 163);
+    }
+}
 
-
-
-/*desktop view*/
-
+@media  (min-width:768px) {
+    #a{
+        background-color: rgb(37, 37, 145);
+    }
+    #b{
+        background-color: rgb(104, 113, 241);
+    }
+    #c{
+        background-color: rgb(163, 60, 231);
+    }
+    #d{
+        background-color: rgb(81, 91, 126);
+    }
+    #e{
+        background-color: rgb(165, 174, 194);
+    }
+    #f{
+        background-color: rgb(82, 61, 240);
+    }
+    #g{
+        background-color: rgb(182, 105, 212);
+    }
+    #h{
+        background-color: rgb(86, 35, 153);
+    }
+    footer{
+        background-color: rgb(104, 94, 94);
+    }
+} 

@@ -1,146 +1,66 @@
-header{
-    width: 480px;
-    height: 75px;
-    background-color: salmon;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer{
-    width: 480px;
-    height: 75px;
-    background-color: rgb(172, 147, 144);
-    display: flex;
-}
-article{
-    width: 480px;
-    height: 150px;
-    background-color:thistle;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.first-class{
-    width: 480px;
-    height: 125px;
-    display: flex;
-
-}
-#navId :first-child{
-    background-color: rgb(141, 60, 60);
-}
-#navId :nth-child(2){
-    background-color: rgb(184, 28, 28);
-}
-
-#all{
-    width: 480px;
-    height: 497px;
-    display:inline-block;
-    
-}
-#e{
-    width: 240px;
-    height: 250px;
-    float: left;
-    background-color: wheat;
-    display: flex;
-}
-
-#f{
-    width: 240px;
-    height: 250px;
-    float: right;
-    background-color:turquoise;
-    display: flex;
-}
-#g{
-    width: 240px;
-    height: 250px;
-    float: left;
-    background-color:teal;
-    display: flex;
-}
-#h{
-    width: 240px;
-    height: 250px;
-    float: right;
-    background-color:tomato;
-    display: flex;
-}
-@media all and (min-width:90px){
-    header{
-        width: 960px;
-        height: 100px;
-        background-color: rgb(156, 144, 143);
-        
+@media (max-width:767px){
+    #a{
+        width: 480px;
+        height: 75px;
+        vertical-align: middle;
+    }
+    #b{
+        width: 480px;
+        height: 150px;
+    }
+    #cd{
+        width: 480px;
+        height: 250px;
+    }
+    #ef{
+        width: 480px;
+        height: 250px;    
+    }
+    #gh{
+        width: 480px;
+        height: 250px;    
     }
     footer{
-        width: 760px;
-        height: 150px;
-        background-color:rgb(145, 97, 35);
-        
+        width: 480px;
+        height: 80px;
     }
-    article{
-        width: 200px;
-        height: 600px;
-        background-color:rgb(94, 80, 94);
-        float: left;
-        
-        
-    }
-    #navId{
-        
-        width: 760px;
-        height: 200px;
-    }
-    .first-class{
-        width: 370px;
-        height: 200px;
-        display: flex;
-    }
-    #navId :first-child{
-        
-        background-color: rgb(187, 127, 127);
-    }
-    #navId :nth-child(2){
-        background-color: rgb(199, 48, 48);
-        float: right;
-       
     }
     
-    #all{
-        width: 760px;
-        height: 250px;
-        float: right;
-    }
-    #e{
-        width: 190px;
-        height: 250px;
-        float: left;
-        background-color: rgb(88, 72, 41);
-        display: flex;
-    }
-    
-    #f{
-        width: 190px;
-        height: 250px;
-        float: right;
-        background-color:rgb(240, 56, 194);
-        display: flex;
-    }
-    #g{
-        width: 190px;
-        height: 250px;
-        float: left;
-        background-color:rgb(124, 97, 150);
-        display: flex;
-    }
-    #h{
-        width: 190px;
-        height: 250px;
-        float: right;
-        background-color:rgb(18, 133, 85);
-        display: flex;
-    }
- } 
+    @media  (min-width:768px) {
+        #a{
+            width: 960px;
+            height: 100px;
+        }
+        #b{
+            width: 200px;
+            height: 600px;
+            float: left;
+            line-height: 500px;
+        }
+        #c,#d{
+            width: 304px;
+            height: 160px;
+            float: left;
+            line-height: 200px;
+        }
+        #ef{
+            width: 380px;
+            height: 250px;  
+            float: left; 
+            line-height: 250px; 
+        }
+        #gh{
+            width: 380px;
+            height: 250px;  
+            float: right; 
+            line-height: 250px; 
+        }
+        footer{
+            width: 760px;
+            height: 150px;
+            clear: right;
+            padding-left: 200px;
+            line-height: 150px;
+        }
+        
+    } 
